@@ -1,0 +1,15 @@
+[gd_scene format=3 uid="uid://b3uik4o5uci5l"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="Container" type="Container" parent="CanvasLayer"]
+offset_right = 1022.0
+offset_bottom = 515.0
+
+[node name="PanelContainer" type="PanelContainer" parent="CanvasLayer/Container"]
+layout_mode = 2
+
+[node name="GridContainer" type="GridContainer" parent="CanvasLayer/Container/PanelContainer"]
+layout_mode = 2
